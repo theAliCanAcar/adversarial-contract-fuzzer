@@ -1,0 +1,31 @@
+{
+  "name": "adversarial-contract-fuzzer",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Seeded adversarial sequences with minimal failing traces.",
+  "main": "adversarial-contract-fuzzer.js",
+  "exports": {
+    ".": "./adversarial-contract-fuzzer.js"
+  },
+  "files": [
+    "adversarial-contract-fuzzer.js",
+    "retry-replan-controller.js",
+    "dod-contract.js",
+    "tool-permission-gate.js",
+    "requirement-drift-detector.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "adversarial-contract-fuzzer"
+  ],
+  "license": "MIT"
+}
